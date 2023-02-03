@@ -1,0 +1,112 @@
+@media(max-width: 600px) {
+body{
+}
+#homePage{
+    overflow: hidden;
+}
+    .navbar{
+        background-color: black !important;
+        text-align: center !important;
+        padding: 0;
+    
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        font-size:1.5rem !important;
+    }
+
+  .ActiveNav {
+        border-bottom:2px solid #e75b1e;
+        background-color: white;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+
+#HomePage .overlay .caption h1{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 2.2rem !important;
+}
+
+
+#HomePage .overlay .caption h2{
+    font-size: 1.5rem !important;
+}
+
+#HomePage .overlay .caption p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.About{
+    display: flex;
+    overflow: hidden;
+}
+.lef{
+    order: 2;
+}
+.rig{
+    order:1;
+}
+
+.about-content {
+    text-align: center;
+}
+
+
+.Special_item h2{
+    font-size: 2.5rem !important;
+    font-family: sans-serif;
+}
+.Special_item p {
+    font-size: 1rem !important;
+    color: #ccc;
+    max-width: 80% !important;
+    margin: auto;
+     
+}
+
+.Special_item .team-member{
+    border-top-left-radius:100px;
+    border-bottom-right-radius:100px;
+}
+.Special_item .tem-caption{
+    width: 60% !important;
+    margin: auto;
+}
+
+.filter{
+    padding: 1.2rem;
+}
+.offerImg{
+    left: 50%;
+    display: block;
+    margin: auto;
+    z-index: 5;
+}
+.offerPrice{
+    margin: 5px auto;
+}
+.offerDesc{
+    text-align: center;
+}
+.menu-descreption{
+    text-align: center !important;
+}
+.bm{
+    margin-bottom: 2rem;
+   
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.bm:hover{
+    border: 1px solid #e75b1e;
+    box-shadow: 5px 5px rgba(0,0,0,.2);
+}
+
+
+}
